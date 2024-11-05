@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Tea Kettle</title>
+  <meta name="title" content="TeaKettle - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">TeaKettle</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          197, ground floor, Old Vasavi Nagar Colony, Karkhana , Secunderabad 500015
+          <!-- Restaurant St, Delicious City, London 9578, UK -->
+        </span>
+      </address>
+
+      <!-- <div class="separator"></div> -->
+
+      <div class="topbar-item item-2">
+        <!-- <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+          <span class="span">Daily : 8.00 am to 10.00 pm</span>  -->
+      </div>
+
+      <a href="tel:+91 86019 56789" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 86019 56789 </span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">chailijeventures@gmail.com</span>
+      </a>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images_1/Tea Kettle Logo (3).png" width="170" height="100" alt="TeaKettle - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images_1/Tea Kettle Logo (3).png" width="160" height="50" alt="TeaKettle - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline ">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="menu.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Menu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a href="franchise.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Franchise</span>
+            </a>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li> -->
+
+        </ul>
+
+        <div class="text-center">
+          <!-- <p class="headline-1 navbar-title">Visit Us</p> -->
+
+          <address class="body-4">
+            <!-- Restaurant St, Delicious City, <br>
+            London 9578, UK -->
+          </address>
+
+          <!-- <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p> -->
+
+          <a href="mailto:booking@TeaKettle.com" class="body-4 sidebar-link">booking@TeaKettle.com</a>
+
+          <div class="separator"></div>
+
+          <!-- <p class="contact-label">Booking Request</p> -->
+
+          <a href="tel:+919940134569" class="body-1 contact-number hover-underline">
+            +919940134569
+          </a>
+        </div>
+
+      </nav>
+      <!-- 
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a> -->
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container menup">
+
+          <!-- <p class="section-subtitle text-center label-2">Flavors for Royalty</p> -->
+
+          <h2 class="headline-1 section-title text-center">Menu</h2>
+
+          <ul class="grid-list">
+
+            <!-- <li> -->
+              <!-- <div class="menu-card hover:card" data-popup-image="./assets/images_1/hq/Chai Masala_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Chai Masala.jpg" width="100" height="100" loading="lazy"
+                    alt="Chai Masala" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tea Kettle Chai Masala</a>
+                    </h3>
+
+                    <span class="badge label-1">Special</span>
+
+                    <span class="span title-2" style="display: none;">50gms - Rs 125</span>
+
+                  </div>
+
+                  <p class="card-text label-1" >
+                    A proprietary concoction of herbs and spices made exclusively for you to give you that invigorating
+                    and refreshing Masala Chai.</p>
+
+                </div>
+
+              </div> -->
+            <!-- </li> -->
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Ajwain Cookie_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Ajwain Cookie.jpg" width="100" height="100" loading="lazy"
+                    alt="Lasagne" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ajwain Cookies</a>
+                    </h3>
+
+                    <span class="span title-2" style="display: none;">50gms - Rs 60</span>
+                    <!-- <span class="span title-2 "style="display: none;">200gms - Rs 190</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    A Sweet & Salty treat to your taste buds. Made with Whole Wheat Flour, Sugar, Salt & Cumin
+                    seeds.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Almond Cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Almond Cookies.jpg" width="100" height="100" loading="lazy"
+                    alt="Butternut Pumpkin" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Almond Cookie</a>
+                    </h3>
+
+                    <!-- <span class="badge label-1">New</span> -->
+
+                    <span class="span title-2" style="display: none;">50gms - Rs 70</span>
+                    <!-- <span class="span title-2 "style="display: none;">150gms - Rs 195</span> -->
+                  </div>
+
+                  <p class="card-text label-1">
+                    Guests at home? Impress them with our Almond goodies. Made with Whole wheat Flour, Almonds &
+                    Jaggery. </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Cashew Cookie_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Cashew Cookie.jpg" width="100" height="100" loading="lazy"
+                    alt="Tokusen Wagyu" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Cashew Cookie</a>
+                    </h3>
+
+                    <!-- <span class="badge label-1">New</span> -->
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 70</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 190</span> -->
+                  </div>
+
+                  <p class="card-text label-1">
+                    A perfect match for your Cashew love. Made with Whole Wheat Flour, Cashew Nuts & Jaggery.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Coconut Cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Coconut Cookies.jpg" width="100" height="100" loading="lazy"
+                    alt="Olivas Rellenas" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Coconut Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 70</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 190</span> -->
+                  </div>
+
+                  <p class="card-text label-1">
+                    An anytime sweet crunchy delight. Made with Whole Wheat Flour, desiccated Coconut, &
+                    Jaggery.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Jeera Cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Jeera Cookies.jpg" width="100" height="100" loading="lazy"
+                    alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Jeera Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 60</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 190</span> -->
+                  </div>
+
+                  <p class="card-text label-1">
+                    A Sweet & Salty treat to your taste buds. Made with Whole Wheat Flour, Sugar, Salt & Cumin
+                    seeds. </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Pista Cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Pista Cookies.jpg" width="100" height="100" loading="lazy"
+                    alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pista Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 70</span>
+                    <span class="span title-2"  style="display: none;">200gms - Rs 195</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A delightful treat for any occasion. Made with Whole Wheat Flour, Pistachios & Jaggery.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Multiseed Cookie - No Maida_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Multiseed Cookie - No Maida.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Multiseed Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 70</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 195</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    If you haven’t tasted this cookie, which is packed with vitamins, protein and minerals, then you are
+                    surely missing something. Made with Whole Wheat Atta, Pumpkin Seeds, Sunflower seeds, Sesame,
+                    Peanuts & Jaggery.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Methi Khari_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Methi Khari.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Methi Khari</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">150gms - Rs 120</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 130</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    A uniquely different savoury snack. Made with Refined Wheat Flour and the enlivening spiciness of Fenugreek leaves.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Garlic Khari_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Garlic Khari.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Garlic Khari</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">150gms - Rs 120</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 130</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    A perfect savoury combination with your Kadak Chai. Made with Refined Wheat Flour and the aromatic & invigorating goodness of Garlic
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card" data-popup-image="./assets/images_1/hq/Methi Khari_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Methi Khari.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ajwain Khari</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">150gms - Rs 120</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 130</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    This is yet another spicy treat from us. Made with Refined Whole Wheat Flour and the healthy Carom seeds.                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <!-- <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Khara Cookie - No Maida_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Khara Cookie - No Maida.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Khari Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 40</span>
+                    <span class="span title-2"  style="display: none;">200gms - Rs 125</span>
+                  </div>
+
+                  <p class="card-text label-1" >
+                    A healthy savoury treat which goes perfectly with your hot cuppa. Made with Whole Wheat Atta, Salt, Chilli Powder, Curry leaves & more.
+
+                </div>
+
+              </div>
+            </li> -->
+
+            <li>
+              <div class="menu-card hover:card"data-popup-image="./assets/images_1/hq/elaich_cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/elaich_cookies.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Whole Wheat Elaichi Cookies
+                      </a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 60</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 190</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    Our ‘No Maida’ front runner. Made with Whole Wheat Atta, Jaggery & Cardmom.                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <!-- <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Peanut Jaggery Cookie - No Maida_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Peanut Jaggery Cookie - No Maida.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Peanut Jaggery Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 50</span>
+                    <span class="span title-2"  style="display: none;">200gms - Rs 190</span>
+                  </div>
+
+                  <p class="card-text label-1" >
+                    Another best seller from our kitchen. Made with Whole Wheat Atta, Peanuts and Jaggery.                  </p>
+
+                </div>
+
+              </div>
+            </li> -->
+
+
+
+            <li>
+              <div class="menu-card hover:card" data-popup-image="./assets/images_1/hq/oat_and_raisins_cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/oat_and_raisins_cookies.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Oats & Raisins Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 60</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 190</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    A wholesome treat to your taste buds and yet healthy. Made with Whole Wheat Flour, rolled Oats, Raisins & Jaggery.                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Carrot Cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Carrot Cookies.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Carrot Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 70</span>
+                    <!-- <span class="span title-2"  style="display: none;">200gms - Rs 190</span> -->
+                  </div>
+
+                  <p class="card-text label-1" >
+                    Yes, Cookies made with carrots! Whole Wheat Flour and Jaggery blend  perfectly with carrots to create this unique goody.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <!-- <li>
+              <div class="menu-card hover:card"  data-popup-image="./assets/images_1/hq/Masala Cookies_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Masala Cookies.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Sweet Masala Cookies</a>
+                    </h3>
+
+                    <span class="span title-2"  style="display: none;">50gms - Rs 50</span>
+                    <span class="span title-2"  style="display: none;">200gms - Rs 190</span>
+                  </div>
+
+                  <p class="card-text label-1" >
+                    Are you in for a sweet and savory delight?! Made with Refined Whole Wheat Flour, Sugar, Green Chillies, Salt  & a lot more.                   </p>
+
+                </div>
+
+              </div>
+            </li> -->
+
+
+            <!-- <li>
+              <div class="menu-card hover:card" data-popup-image="./assets/images_1/hq/Chai Masala_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Chai Masala.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Premium Tea Blend</a>
+                    </h3>
+                    <span class="badge label-1">Special</span>
+                    <span class="span title-2"  style="display: none;">100gms - Rs 70</span>
+                    <span class="span title-2"  style="display: none;">200gms - Rs 130</span>
+                  </div>
+
+                  <p class="card-text label-1" >
+                    Our Premium Tea Blend is a curated composition of three different leaves handpicked from the sublime slopes of Assam to give you that perfectly tasting aromatic cup of Chai everytime.
+                  </p>
+
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="menu-card hover:card" data-popup-image="./assets/images_1/hq/Chai Masala_hq.jpg">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images_1/biscuits/Chai Masala.jpg" width="100" height="100"
+                    loading="lazy" alt="product_img" class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ajwain Masala</a>
+                    </h3>
+                    <span class="badge label-1">Special</span>
+                    <span class="span title-2"  style="display: none;">50gms - Rs 75</span>
+                    <span class="span title-2"  style="display: none;">200gms - Rs 130</span>
+                  </div>
+
+                  <p class="card-text label-1" >
+                    Our Premium Tea Blend is a curated composition of three different leaves handpicked from the sublime slopes of Assam to give you that perfectly tasting aromatic cup of Chai everytime.
+                  </p>
+
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+          
+
+          <!-- <p class="menu-text text-center">
+            During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p> -->
+          <!-- 
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim"> -->
+
+        </div>
+      </section>
+      <!-- Add this structure to your <head> section -->
+      <style>
+       
+      </style>
+
+      <!-- Add this just before your closing </body> tag -->
+      <div id="menuItemPopup" class="popup">
+        <div class="popup-content">
+          <span class="close">&times;</span>
+          <div class="popup-inner">
+            <div class="popup-image">
+              <img id="popupImage" src="" alt="">
+            </div>
+            <div class="popup-details">
+              <h2 id="popupTitle"></h2>
+              <span id="popupBadge" class="badge label-1"></span>
+              <div id="popupPrices" class="popup-prices"></div>
+              <p id="popupDescription" class="description"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images_1/hero-2.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images_1/Tea Kettle Logo (3).png" width="160" height="50" loading="lazy"
+              alt="TeaKettle home">
+          </a>
+
+          <address class="body-4">
+          197, ground floor, Old Vasavi Nagar Colony, Karkhana , Secunderabad 500015
+          </address>
+
+          <a href="mailto:chailijeventures@gmail.com" class="body-4 contact-link">chailijeventures@gmail.com</a>
+
+          <a href="tel:+91 8601956789" class="body-4 contact-link">Booking Request : +91 8601956789</a>
+          <!-- 
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p> -->
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="menu1.html" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="label-2 footer-link hover-underline">Franchise</a>
+          </li> -->
+
+          <!-- <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li> -->
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Tea Kettle. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
